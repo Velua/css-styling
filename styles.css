@@ -1,3 +1,94 @@
 .main-header {
   background-color: pink;
 }
+
+body {
+  background-color: #EFEFEF;
+  font-family: 'Abel', sans-serif;
+
+}
+.title {
+  font-weight: bold;
+  font-size: 3.0em;
+  text-shadow: 2px 2px silver;
+}
+
+.cover{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: #18121E;*/
+  color: black;
+  height: 10%;
+  background-image: url("picture.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  border-radius: 15px;
+  width: 80%;
+  border-color: black;
+  margin-top: 25px;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+.subtext {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.article {
+  background-color: #CAEBF2;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  opacity: 0.9;
+  padding: 15px 15px 15px 15px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.article-title{
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.article-content {
+
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+
+.links {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.dad {
+  background-color: red;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.son {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.select  {
+  font-size: 1.3em;
+  font-weight: bold;
+}
